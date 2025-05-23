@@ -7,11 +7,15 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.o1hollow.firstmod.FirstMod;
 
+import java.rmi.registry.Registry;
+
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, FirstMod.MOD_ID);
 
     public static final RegistryObject<Item> VIBRANIUM = ITEMS.register("vibranium",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_VIBRANIUM = ITEMS.register("raw_vibranium",
             () -> new Item(new Item.Properties()));
 
 
