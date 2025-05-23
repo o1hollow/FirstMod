@@ -1,4 +1,7 @@
 {
   "item.firstmod.vibranium": "Vibranium",
-  "item.firstmod.raw_vibranium": "Raw Vibranium"
+  "item.firstmod.raw_vibranium": "Raw Vibranium",
+
+  "block.firstmod.vibranium_block": "Block of Vibranium",
+  "block.firstmod.josh_block": "Block of Josh"
 }

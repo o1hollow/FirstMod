@@ -58,6 +58,7 @@ public class FirstMod {
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.VIBRANIUM_BLOCK);
+            event.accept(ModBlocks.JOSH_BLOCK);
         }
     }
 
