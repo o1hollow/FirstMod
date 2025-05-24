@@ -1,7 +1,12 @@
 {
   "item.firstmod.vibranium": "Vibranium",
   "item.firstmod.raw_vibranium": "Raw Vibranium",
+  "item.firstmod.josh": "Joshua Patrick",
 
   "block.firstmod.vibranium_block": "Block of Vibranium",
-  "block.firstmod.josh_block": "Block of Josh"
+  "block.firstmod.raw_vibranium_block": "Block of Raw Vibranium",
+  "block.firstmod.josh_block": "Block of Josh",
+
+  "creativetab.firstmod.vibranium_items": "Vibranium Items",
+  "creativetab.firstmod.vibranium_blocks": "Vibranium Blocks"
 }

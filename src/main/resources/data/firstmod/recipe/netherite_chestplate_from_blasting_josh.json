@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 8,
+  "experience": 532532253,
+  "group": "vibranium",
+  "ingredient": {
+    "item": "firstmod:josh"
+  },
+  "result": {
+    "id": "minecraft:netherite_chestplate"
+  }
+}

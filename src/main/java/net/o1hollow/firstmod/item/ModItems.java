@@ -17,6 +17,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_VIBRANIUM = ITEMS.register("raw_vibranium",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> JOSH = ITEMS.register("josh",
+            () -> new Item(new Item.Properties()));
 
 
 

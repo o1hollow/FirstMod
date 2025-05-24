@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 50,
+  "group": "vibranium",
+  "ingredient": {
+    "item": "firstmod:raw_vibranium"
+  },
+  "result": {
+    "id": "firstmod:vibranium"
+  }
+}

@@ -20,10 +20,13 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> VIBRANIUM_BLOCK = registerBlock("vibranium_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> RAW_VIBRANIUM_BLOCK = registerBlock("raw_vibranium_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.SPONGE)));
     public static final RegistryObject<Block> JOSH_BLOCK = registerBlock("josh_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.SPONGE)));
+                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.SPONGE)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

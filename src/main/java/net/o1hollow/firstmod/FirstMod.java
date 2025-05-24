@@ -15,6 +15,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.o1hollow.firstmod.block.ModBlocks;
+import net.o1hollow.firstmod.item.ModCreativeModeTabs;
 import net.o1hollow.firstmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -35,6 +36,8 @@ public class FirstMod {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -54,10 +57,12 @@ public class FirstMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.VIBRANIUM);
             event.accept(ModItems.RAW_VIBRANIUM);
+            event.accept(ModItems.JOSH);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.VIBRANIUM_BLOCK);
+            event.accept(ModBlocks.RAW_VIBRANIUM_BLOCK);
             event.accept(ModBlocks.JOSH_BLOCK);
         }
     }
